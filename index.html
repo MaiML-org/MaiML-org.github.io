@@ -1,51 +1,141 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MaiML GitHub Repositories</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MaiML</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header>
+    <div class="container hero">
 
-  <h1>MaiMLデータフォーマットを扱う開発リンク集</h1>
+      <div>
+        <div class="tag">Open Scientific Data Format</div>
 
-  <p class="subtitle">
-    Common format for metrological analysis data
-  </p>
+        <h1>MaiML</h1>
 
-  <p>
-    MaiMLは、異なる計測分析装置およびソフトウェアを用いた計測分析方法・結果などを、
-    サイバー空間で共通利用できるようにするための、
-    XMLを拡張したデータフォーマットです。
-  </p>
+        <p class="lead">
+          MaiMLは、異なる計測分析装置・ソフトウェア間で
+          データとプロトコルを相互利用するための、
+          XMLベースの共通データフォーマットです。
+        </p>
 
-  <!--
-  <h2>Tools</h2>
+        <div class="buttons">
+          <a class="btn primary" href="#organizations">
+            Organizations
+          </a>
 
-  <div class="tools">
-    <a href="#">Viewer</a>
-    <a href="#">Editor</a>
-    <a href="#">Validator</a>
-    <a href="#">Converter</a>
-  </div>
+          <a class="btn secondary" href="https://github.com/tacyas/MaiML">
+            GitHub Repository
+          </a>
+        </div>
+      </div>
 
-  <h2>Use Cases</h2>
+      <div class="hero-card">
+        <h2>Current Architecture</h2>
 
-  <p>
-    研究データ管理、ラボノート、データ共有などに利用できます。
-  </p>
-  -->
+        <ul>
+          <li>Official schema definition and specifications</li>
+          <li>Independent tool repositories</li>
+          <li>Community-driven SDK and APIs</li>
+          <li>Experimental sandbox environment</li>
+        </ul>
+      </div>
 
-  <hr>
+    </div>
+  </header>
 
-  <footer>
-    GitHub:
-    <a href="#">リンク追加予定</a>
-  </footer>
+  <main class="container">
 
+    <section>
+      <h2 class="section-title">About MaiML</h2>
+
+      <p class="section-sub">
+        MaiML provides a standardized framework for handling analytical and metrological data.
+        The ecosystem is designed to support interoperability, reproducibility,
+        and long-term data utilization across different instruments and software platforms.
+      </p>
+    </section>
+
+    <section id="organizations">
+      <h2 class="section-title">Organizations</h2>
+
+      <p class="section-sub">
+        Proposed organizational structure for official repositories,
+        tools, schemas, SDKs, and community-driven projects.
+      </p>
+
+      <div class="grid">
+
+        <div class="card">
+          <div class="badge">Official</div>
+          <h3>MaiML</h3>
+          <p>Main repository and official entry point.</p>
+
+          <ul>
+            <li>Specifications</li>
+            <li>Core documents</li>
+            <li>Repository links</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="badge">Official</div>
+          <h3>MaiML-Tools</h3>
+          <p>Independent tools migrated from the current repository.</p>
+
+          <ul>
+            <li>Viewer</li>
+            <li>Editor</li>
+            <li>Validator</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="badge">Community</div>
+          <h3>MaiML-Library</h3>
+          <p>Community-driven SDKs, APIs, and related projects.</p>
+
+          <ul>
+            <li>Python SDK</li>
+            <li>API utilities</li>
+            <li>Extensions</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="badge">Official</div>
+          <h3>MaiML-Schema</h3>
+          <p>Schema definitions and version management.</p>
+
+          <ul>
+            <li>XSD</li>
+            <li>Schema releases</li>
+            <li>Validation rules</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="badge">Sandbox</div>
+          <h3>MaiML-Sandbox</h3>
+          <p>Experimental and collaborative development space.</p>
+
+          <ul>
+            <li>Prototype tools</li>
+            <li>Joint development</li>
+            <li>Unofficial projects</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      © MaiML Project
+    </footer>
+
+  </main>
 </body>
-
 </html>
