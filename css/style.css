@@ -6,12 +6,12 @@
 
 :root {
   --bg-gradient: linear-gradient(180deg, #1b263b 0%, #0d1b2a 100%);
-
+  
   /* カード周りのカラー定義（ダークテーマに合わせた高コントラスト調整） */
   --card-bg: #1e293b;
   --card-hover-bg: #24334a;
   --card-border: rgba(255, 255, 255, 0.1);
-
+  
   --text-main: #f8fafc;
   --text-sub: #94a3b8;
   --text-muted: #64748b;
